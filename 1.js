@@ -13,13 +13,13 @@ var spn = document.getElementsByTagName("span");
 
 // Declaring Function
 spn[0].innerHTML = nmKaryawan;
-spn[1].innerHTML = Number(jmlGaji).toLocaleString("en-GB");
+spn[1].innerHTML = "IDR " + Number(jmlGaji).toLocaleString("en-GB");
 if (tunjangan){
-    spn[2].innerHTML = Number(500000).toLocaleString("en-GB");
+    spn[2].innerHTML = "IDR " + Number(500000).toLocaleString("en-GB");
 } else {
-    spn[2].innerHTML = Number(0).toLocaleString("en-GB");
+    spn[2].innerHTML = "IDR " + Number(0).toLocaleString("en-GB");
 }
-spn[3].innerHTML = bpjs.toLocaleString("en-GB");
-spn[4].innerHTML = pajak.toLocaleString("en-GB");
-spn[5].innerHTML = gjBersih.toLocaleString("en-GB") + "/Bulan";
-spn[6].innerHTML = gjTotal.toLocaleString("en-GB") + " Selama " + blnGaji + " Bulan.";
+spn[3].innerHTML = "IDR " + bpjs.toLocaleString("en-GB");
+spn[4].innerHTML = "IDR " + pajak.toLocaleString("en-GB");
+spn[5].innerHTML = "IDR " + gjBersih.toLocaleString("en-GB") + "/Bulan";
+spn[6].innerHTML = "IDR " + gjTotal.toLocaleString("en-GB") + " Selama " + blnGaji + " Bulan.";
