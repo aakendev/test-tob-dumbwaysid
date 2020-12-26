@@ -7,7 +7,7 @@
 - Termux (With git, php, proot-distro, nodejs, npm, php, etc);
 - Google Chrome (For Inspecting the Layout);
 
-**Task 1 [link]https://aakendev.github.io/test-tob-dumbwaysid/1.html[/link]**
+**Task 1 [link]https://aakendev.github.io/test-tob-dumbwaysid/1.html**
 
 - 1.html
 - 1.css
