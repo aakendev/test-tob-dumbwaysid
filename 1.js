@@ -22,4 +22,4 @@ if (tunjangan){
 spn[3].innerHTML = bpjs.toLocaleString("en-GB");
 spn[4].innerHTML = pajak.toLocaleString("en-GB");
 spn[5].innerHTML = gjBersih.toLocaleString("en-GB") + "/Bulan";
-spn[6].innerHTML = gjTotal.toLocaleString("en-GB");
+spn[6].innerHTML = gjTotal.toLocaleString("en-GB") + " Selama " + blnGaji + " Bulan.";
